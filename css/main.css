@@ -1,1 +1,181 @@
 /* Los estilos de tu proyecto */
+/*estilos generales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 7rem;
+  padding: 1rem;
+  background-color: white;
+}
+
+.burguer-menu  span {
+  border-radius: 0.3rem;
+  border: 0.1rem solid #dddddd;
+  font-size: 2rem;
+  padding: 0.2rem 0.4rem;
+  color: gray;
+}
+
+.offset-4 {
+  margin-left:33.33%;
+}
+
+.bg-taxi {
+  background-image: url("../assets/images/taxi.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+}
+
+.registro {
+  background-color: #ffc107;
+  color: white;
+  height: 18rem;
+  position:absolute;
+  right: 0;
+  top: 10rem;
+}
+
+.btn-registro {
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.text-registro {
+  font-size: 2.5rem;
+}
+
+.iphone {
+  background-color: #ffc107;
+  color: white;
+  font-size: 1.5rem;
+  padding :2rem 1rem 0 1rem;
+  width: 100vw;
+}
+
+.img-responsive {
+  width: 80vw;
+}
+
+.new-app {
+  border: 0.1rem solid white;
+}
+
+.new-app h3 {
+  text-align: center;
+}
+
+p {
+  margin-bottom:0;
+}
+
+.bg-conduce {
+  background-image: url("../assets/images/conduce.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.conduce {
+  background-color: rgba(52, 52, 52, 0.45);
+  color: white;
+  font-size: 1.5rem;
+  padding: 1.5rem;
+  height: 25rem;
+}
+
+.btn-c {
+  background-color: #ffc107;
+  border: none;
+  font-size: 1.5rem;
+  padding: 0.7rem;
+}
+
+/*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
+.view-movile {
+  display: block;
+}
+/*estilo para ocultar el menu-hamburgueza cuando se encuentre en tablet y desktop*/
+.view-desktop {
+  display: none;
+}
+
+@media (min-width: 768px){
+  .logo-header-mobile {
+    position: absolute;
+    right: 60rem;
+  }
+
+  .nav-link {
+    color: grey;
+  }
+
+  .bg-taxi {
+    background-image: url("../assets/images/taxi.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center bottom;
+  }
+
+  .registro {
+    background-color: #ffc107;
+    width: 27.8rem;
+    padding: 1rem;
+    position:absolute;
+    left: 50rem;
+    top: 10rem;
+  }
+
+  .button-r {
+    border-radius: 0.3rem;
+    border: none;
+    padding: 0.3rem;
+    background-color: white;
+    margin-top: 1rem;
+
+  }
+
+  .form-registry input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+    width: 8rem;
+    padding-top: 1rem;
+  }
+
+  .iphone-desktop {
+    background-color: #ffc107;
+  }
+
+  .img-responsive {
+    width: 100%;
+    position: relative;
+    top: 7rem;
+  }
+
+  .text-desktop {
+    color: white;
+    position: relative;
+    bottom: 10rem;
+    left: 25rem;
+  }
+
+
+
+  /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
+  .view-movile {
+    display: none;
+  }
+  /*estilo para ocultar el menu-hamburgueza cuando se encuentre en tablet y desktop*/
+  .view-desktop {
+    display: block;
+  }
+}
