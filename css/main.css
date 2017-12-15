@@ -37,7 +37,7 @@ header {
   background-color: #ffc107;
   color: white;
   height: 18rem;
-  position:absolute;
+  position: absolute;
   right: 0;
   top: 10rem;
 }
@@ -52,24 +52,19 @@ header {
   font-size: 2.5rem;
 }
 
-.iphone {
+.informacion-labcar {
   background-color: #ffc107;
   color: white;
   font-size: 1.5rem;
   padding :2rem 1rem 0 1rem;
-  width: 100vw;
 }
 
 .img-responsive {
   width: 80vw;
 }
 
-.new-app {
+.border-white {
   border: 0.1rem solid white;
-}
-
-.new-app h3 {
-  text-align: center;
 }
 
 p {
@@ -126,11 +121,10 @@ p {
 
   .registro {
     background-color: #ffc107;
-    width: 27.8rem;
+    width: 27.7rem;
     padding: 1rem;
-    position:absolute;
+    position: absolute;
     left: 50rem;
-    top: 10rem;
   }
 
   .button-r {
@@ -139,8 +133,7 @@ p {
     padding: 0.3rem;
     background-color: white;
     margin-top: 1rem;
-
-  }
+}
 
   .form-registry input {
     background-color: transparent;
@@ -151,24 +144,26 @@ p {
     padding-top: 1rem;
   }
 
-  .iphone-desktop {
+
+  .informacion-labcar {
     background-color: #ffc107;
+    color: white;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .border-white {
+    border: none;
   }
 
   .img-responsive {
-    width: 100%;
-    position: relative;
-    top: 7rem;
+    width: 70%;
   }
 
-  .text-desktop {
-    color: white;
-    position: relative;
-    bottom: 10rem;
-    left: 25rem;
+  .conduce {
+    margin-left: 53rem;
   }
-
-
 
   /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
   .view-movile {
