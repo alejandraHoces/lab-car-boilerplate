@@ -89,8 +89,9 @@ p {
 .btn-c {
   background-color: #ffc107;
   border: none;
-  font-size: 1.5rem;
-  padding: 0.7rem;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin-top: 1rem;
 }
 
 /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
@@ -103,16 +104,43 @@ p {
 }
 
 @media (min-width: 768px){
-  .logo-header-mobile {
+   .logo-header-mobile {
     position: absolute;
     right: 60rem;
   }
 
-  .nav-link {
+   .nav-link {
     color: grey;
   }
+/*modal-inicia secion*/
+   .log-in {
+     background-color: #20b2aa;
+   }
 
-  .bg-taxi {
+   .img-perfil {
+     height: 10rem;
+     width: 10rem;
+     border-radius: 100%;
+     margin-left: 9rem;
+   }
+
+   .form-login {
+     background-color:#d9d9d9;
+     padding: 2rem 1rem;
+     border-radius: 0.2rem;
+   }
+
+   .input-group {
+     margin-bottom: 1rem;
+   }
+
+   .btn-default {
+     background-color: #ffc107;
+     margin-left: 5rem;
+   }
+/*fin estilos modal-inicio de sesion*/
+
+   .bg-taxi {
     background-image: url("../assets/images/taxi.jpg");
     height: 100vh;
     background-size: cover;
@@ -144,6 +172,35 @@ p {
     padding-top: 1rem;
   }
 
+  /*modal registro*/
+  .registration, .be-driver {
+    background-color:  #a6a6a6;
+  }
+
+  .btn-registro {
+    background-color: black;
+    color: white;
+  }
+
+  .form-inline {
+    margin-left: 0.8rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .btn-redes {
+    margin-left: 0.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+  }
+
+  .btn-enviar {
+    background-color:#4fabc9;
+    color: white;
+  }
+
+  .btnfooter {
+    display: inline-block;
+  }
 
   .informacion-labcar {
     background-color: #ffc107;
@@ -162,7 +219,11 @@ p {
   }
 
   .conduce {
-    margin-left: 53rem;
+    margin-left: 54rem;
+  }
+
+  .sel1 {
+    font-weight: 600;
   }
 
   /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
