@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>lab-car</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   </head>
   <body>
@@ -19,19 +19,19 @@
           <form class="form-horizontal">
             <div class="form-group">
               <label for="puntoPartida" class="glyphicon glyphicon-record"></label>
-              <input id="puntoPartida" type="text" class="form-control" placeholder="Ingrese su punto de partida">
+              <img class="shape" src="assets/images/shape.png"><input id="puntoPartida" type="text" class="form-control" placeholder="Ingrese su punto de partida">
             </div>
             <div class="form-group">
               <label for="puntoDestino" class="glyphicon glyphicon-send"></label>
-              <input id="puntoDestino" type="text" class="form-control" placeholder="Ingrese su destino">
+              <img class="shape" src="assets/images/shape2.png"><input id="puntoDestino" type="text" class="form-control" placeholder="Ingrese su destino">
             </div>
             <div class="form-group">
               <button id= "trazarRuta" type="submit" class="btn btn-default col-md-offset-3">¡TRAZAR RUTA!</button>
             </div>
           </form>
         </div>
-        <div class="map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15054.678648226054!2d-99.1880091696859!3d19.383451147341113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82a905feef%3A0x442ea08b0d4c6520!2sCarolina%2C+Cd+de+los+Deportes%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico!5e0!3m2!1ses!2spe!4v1513288719240" width="300" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <div id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15054.678648226054!2d-99.1880091696859!3d19.383451147341113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1ff82a905feef%3A0x442ea08b0d4c6520!2sCarolina%2C+Cd+de+los+Deportes%2C+Ciudad+de+M%C3%A9xico%2C+CDMX%2C+M%C3%A9xico!5e0!3m2!1ses!2spe!4v1513288719240" width="350" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
        </div>
       </div>
@@ -39,58 +39,153 @@
     <footer>
       <div class="container-footer">
         <div class="logo">
-          <img src="assets/img/logo-blanco.png" alt="labcar">
+          <img src="assets/images/logoBlanco.png" alt="labcar">
         </div>
         <hr>
-        <div class="container-medium">
-          <div class="col-left">
-            <ul>
-              <li>
-                <a href="#">Viaja</a>
+        <!-- Para movile -->
+        <div class="row justify-content-start view-mobile">
+          <div class="col-4 col-left">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Viaja</a>
               </li>
-              <li>
-                <a href="#">Conduce</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conduce</a>
               </li>
-              <li>
-                <a href="#">Ciudades</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ciudades</a>
               </li>
-              <li>
-                <a href="#">Entregas</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entregas</a>
               </li>
-              <li>
-                <a href="#">¿Como funciona?</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Como funciona?</a>
               </li>
-              <li>
-                <a href="#">Paises</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Paises</a>
               </li>
-              <li>
-                <a href="#">Seguridad</a>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seguridad</a>
               </li>
             </ul>
           </div>
-          <div class="col-right">
-            <ul>
-              <li>
-                <a href="#"></a>
+          <div class="col-4 col-right">
+            <ul class="nav">
+              <li class="nav-item fa fa-facebook">
+                <a class="nav-link" href="#"></a>
               </li>
-              <li>
-                <a href="#"></a>
+              <li class="nav-item fa fa-twitter">
+                <a class="nav-link" href="#"></a>
               </li>
-              <li>
-                <a href="#"></a>
+              <li class="nav-item fa fa-linkedin">
+                <a class="nav-link" href="#"></a>
               </li>
-              <li>
-                <a href="#"></a>
+              <li class="nav-item fa fa-apple">
+                <a class="nav-link" href="#"></a>
               </li>
-              <li>
-                <a href="#"></a>
+              <li class="nav-item fa fa-play">
+                <a class="nav-link" href="#"></a>
               </li>
             </ul>
-            <div class="">
-
-            </div>
+            <br>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <img src="assets/images/enBadgeWebGeneric.png" alt="app store">
+              </li>
+              <br>
+              <li class="nav-item">
+                <img src="assets/images/appstore.png" alt="google play">
+              </li>
+            </ul>
           </div>
         </div>
+        <!--Para desktop -->
+        <!--<div class="row view-desktop">
+          <div class="col col-down">
+            <ul class="nav">
+              <li class="nav-item fa fa-facebook">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item fa fa-twitter">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item fa fa-linkedin">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item fa fa-apple">
+                <a class="nav-link" href="#"></a>
+              </li>
+              <li class="nav-item fa fa-play">
+                <a class="nav-link" href="#"></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Viaja</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Conduce</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Ciudades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Entregas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">¿Como funciona?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Paises</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Seguridad</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Oportunidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nuestra Historia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">API de Lab</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Eventos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Desarrolladores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Laboratoria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Coders</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col col-down">
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <img src="assets/images/enBadgeWebGeneric.png" alt="app store">
+              </li>
+              <br>
+              <li class="nav-item">
+                <img src="assets/images/appstore.png" alt="google play">
+              </li>
+            </ul>
+          </div>
+        </div>-->
+
         <hr>
         <div class="">
           <p> © 2017 LabCar technologies Inc.</p>
@@ -98,8 +193,9 @@
       </div>
     </footer>
 
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!--<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBgQP_SY1xgbh_iZPLmJTBiCFFSXl31X3g&callback=initMap"></script>-->
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/app.js"></script>
   </body>
 </html>
