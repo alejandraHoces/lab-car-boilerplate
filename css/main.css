@@ -94,50 +94,6 @@ p {
   margin-top: 1rem;
 }
 
-.tarifa {
-  background-color: #ffc107;
-  color: white;
-  font-size: 1.5rem;
-  padding: 2rem 0.7rem;
-}
-
-.direction {
-  border-radius: 0.4rem;
-  border: 1px solid white;
-  outline: none;
-  margin-left: 0.7rem;
-  margin-top: 1rem;
-  width: 20rem;
-  background-color: transparent;
-}
-
-.direction, input::placeholder {
-  color:white;
-  font-size: 1.3rem;
-}
-
-.trazarRuta {
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 0.3rem;
-  font-size: 1rem;
-  font-weight: 600;
-  margin-left: 6rem;
-  padding: 0.5rem 1.3rem;
-}
-
-.map {
-  border: 1px solid white;
-  padding: 1rem;
-  margin-left: 1rem;
-}
-
-.map iframe {
-  width: 23rem;
-  height: 20rem;
-}
-
 /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
 .view-movile {
   display: block;
