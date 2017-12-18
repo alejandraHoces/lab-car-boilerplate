@@ -94,6 +94,73 @@ p {
   margin-top: 1rem;
 }
 
+/*estilo seccion tarifa*/
+.tarifa {
+  background-color: #ffc107;
+  color: white;
+  font-size: 1.5rem;
+  padding: 2rem 0.7rem;
+}
+
+.direction {
+  border-radius: 0.4rem;
+  border: 1px solid white;
+  outline: none;
+  margin-left: 0.7rem;
+  margin-top: 1rem;
+  width: 20rem;
+  background-color: transparent;
+  color:white;
+  font-size: 1.2rem;
+  padding: 0.2rem 1rem;
+}
+
+.trazarRuta {
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 0.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 6rem;
+  padding: 0.5rem 1.3rem;
+}
+
+.map {
+  border: 1px solid white;
+  padding: 1rem;
+  margin-left: 0.5rem;
+}
+
+.map iframe {
+  width: 80vw;
+  height: 50vh;
+}
+/*estilos footer*/
+footer {
+  background-color: #2b2b2b;
+  color: #fff;
+  padding: 1rem 1.1rem;
+  font-size: 1.2rem;
+}
+
+footer a{
+  color: #fff;
+}
+
+footer hr {
+  background-color: #fff;
+}
+
+.socialnet li{
+  width: 8vw;
+  /*margin-left: 2rem;*/
+}
+
+.images-app img {
+  width:38vw;
+}
+
 /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
 .view-movile {
   display: block;
@@ -161,6 +228,7 @@ p {
     padding: 0.3rem;
     background-color: white;
     margin-top: 1rem;
+    font-size: 1.1rem;
 }
 
   .form-registry input {
@@ -224,6 +292,34 @@ p {
 
   .sel1 {
     font-weight: 600;
+  }
+/*estilos de la seccion tarifa*/
+.map {
+  border: 1px solid white;
+  padding: 1rem;
+  margin-left: 4rem;
+}
+
+.map iframe {
+  width: 23rem;
+  height: 20rem;
+}
+
+/*estilos del footer*/
+  .global {
+    margin-left: 20rem;
+  }
+
+  .global-menu {
+    position: absolute;
+    left: 33rem;
+    bottom: 6.5rem;
+  }
+
+  .app {
+    position: absolute;
+    left: 50rem;
+    bottom: 7rem;
   }
 
   /*estilo para visualizar el menu-hamburgueza cuando se encuentre en mobile*/
